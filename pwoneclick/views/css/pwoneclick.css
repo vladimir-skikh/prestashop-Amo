@@ -1,0 +1,311 @@
+.pleace_wait {
+    margin: 20px 0;
+    display: none;
+}
+.uipw-form_success {
+    display: none;
+    width: 100%;
+    text-align: center;
+    margin:0 10px;
+}
+.uipw-form_goods_modal {
+    display: block;
+    width:90%;
+    margin:20px auto;
+    text-align: center;
+}
+#uipw-form_goods_modal{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#uipw-form_goods_modal *{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#uipw-goods_modal .fancybox-skin .fancybox-close::after {
+    content:"";
+}
+
+#uipw-form_goods_modal .goods_info .title{
+    text-align: left;
+}
+#uipw-call_modal,
+#uipw-question_modal,
+#uipw-goods_modal {
+    width: 500px !important;
+    max-width: 100% !important;
+    top: 50% !important;
+    left: 50% !important;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position:fixed !important;}
+#uipw-call_modal .fancybox-skin,
+#uipw-question_modal .fancybox-skin,
+#uipw-goods_modal .fancybox-skin {
+    border-radius: 0; }
+#uipw-call_modal .fancybox-skin .fancybox-inner,
+#uipw-question_modal .fancybox-skin .fancybox-inner,
+#uipw-goods_modal .fancybox-skin .fancybox-inner {
+    width: 100% !important; }
+#uipw-call_modal .fancybox-close,
+#uipw-question_modal .fancybox-close,
+#uipw-goods_modal .fancybox-close {
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    background: url(../../close.png) no-repeat center;
+    opacity: 0.8;
+    background-size: cover; }
+#uipw-call_modal .fancybox-close:hover,
+#uipw-question_modal .fancybox-close:hover,
+#uipw-goods_modal .fancybox-close:hover {
+    opacity: 1; }
+
+#uipw-question_modal {
+    width: 700px !important; }
+
+#uipw-goods_modal {
+    width: 1000px !important; }
+
+#uipw-form_call_modal,
+#uipw-form_question_modal,
+#uipw-form_goods_modal {
+    padding: 40px 30px;
+    display: none; }
+#uipw-form_call_modal .title, #uipw-form_call_modal .description,
+#uipw-form_question_modal .title,
+#uipw-form_question_modal .description,
+#uipw-form_goods_modal .title,
+#uipw-form_goods_modal .description {
+    margin: 15px 0;
+    text-align: center; }
+#uipw-form_call_modal .title,
+#uipw-form_question_modal .title,
+#uipw-form_goods_modal .title {
+    margin-top: 0;
+    font-size: 2em; }
+#uipw-form_call_modal .description,
+#uipw-form_question_modal .description,
+#uipw-form_goods_modal .description {
+    color: #454545; }
+#uipw-form_call_modal .error,
+#uipw-form_question_modal .error,
+#uipw-form_goods_modal .error {
+    width: 90%;
+    margin: 25px auto;
+    background: #fcefef;
+    text-align: center;
+    padding: 20px 10px;
+    border: 1px solid #fab9b9; }
+#uipw-form_call_modal .error P,
+#uipw-form_question_modal .error P,
+#uipw-form_goods_modal .error P {
+    color: #9b2b2b;
+    margin: 0;
+    line-height: 1.1; }
+#uipw-form_call_modal .uipw-modal_form_fields,
+#uipw-form_question_modal .uipw-modal_form_fields,
+#uipw-form_goods_modal .uipw-modal_form_fields {
+    margin: auto;}
+#uipw-form_call_modal .uipw-modal_form_fields label, #uipw-form_call_modal .uipw-modal_form_fields input,
+#uipw-form_question_modal .uipw-modal_form_fields label,
+#uipw-form_question_modal .uipw-modal_form_fields input,
+#uipw-form_goods_modal .uipw-modal_form_fields label,
+#uipw-form_goods_modal .uipw-modal_form_fields input {
+    display: block;
+    width: 100%;
+    cursor: pointer; }
+#uipw-form_call_modal .uipw-modal_form_fields label,
+#uipw-form_question_modal .uipw-modal_form_fields label,
+#uipw-form_goods_modal .uipw-modal_form_fields label {
+    color: #7b7b7b;
+    margin: 15px 0 5px 0; 
+    text-align: left;}
+#uipw-form_call_modal .uipw-modal_form_fields label sup,
+#uipw-form_question_modal .uipw-modal_form_fields label sup,
+#uipw-form_goods_modal .uipw-modal_form_fields label sup {
+    margin-top: 3px;
+    color: red; }
+#uipw-form_call_modal .uipw-modal_form_fields input, #uipw-form_call_modal .uipw-modal_form_fields textarea,
+#uipw-form_question_modal .uipw-modal_form_fields input,
+#uipw-form_question_modal .uipw-modal_form_fields textarea,
+#uipw-form_goods_modal .uipw-modal_form_fields input,
+#uipw-form_goods_modal .uipw-modal_form_fields textarea {
+    border: 1px solid #d0d0d0;
+    margin: 0;
+    text-align: left;
+    border-radius: 4px;
+    background: #ebebeb;
+    color: #454545;
+    outline: none;
+    position: relative;
+    padding: 10px;
+    -webkit-box-shadow: inset 0 0 5px 1px rgba(208, 208, 208, 0.9);
+    -moz-box-shadow: inset 0 0 5px 1px rgba(208, 208, 208, 0.9);
+    box-shadow: inset 0 0 5px 1px rgba(208, 208, 208, 0.9); }
+#uipw-form_call_modal .uipw-modal_form_fields input:focus, #uipw-form_call_modal .uipw-modal_form_fields textarea:focus,
+#uipw-form_question_modal .uipw-modal_form_fields input:focus,
+#uipw-form_question_modal .uipw-modal_form_fields textarea:focus,
+#uipw-form_goods_modal .uipw-modal_form_fields input:focus,
+#uipw-form_goods_modal .uipw-modal_form_fields textarea:focus {
+    background: #fff;
+    border-color: #f3e064;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none; }
+#uipw-form_call_modal .uipw-modal_form_fields input.error, #uipw-form_call_modal .uipw-modal_form_fields textarea.error,
+#uipw-form_question_modal .uipw-modal_form_fields input.error,
+#uipw-form_question_modal .uipw-modal_form_fields textarea.error,
+#uipw-form_goods_modal .uipw-modal_form_fields input.error,
+#uipw-form_goods_modal .uipw-modal_form_fields textarea.error {
+    border-color: #fab9b9;
+    background: #fff;
+    -webkit-box-shadow: 0 0 5px 1px #fab9b9;
+    -moz-box-shadow: 0 0 5px 1px #fab9b9;
+    box-shadow: 0 0 5px 1px #fab9b9; }
+#uipw-form_call_modal .uipw-modal_form_fields input[type=submit], #uipw-form_call_modal .uipw-modal_form_fields textarea[type=submit],
+#uipw-form_question_modal .uipw-modal_form_fields input[type=submit],
+#uipw-form_question_modal .uipw-modal_form_fields textarea[type=submit],
+#uipw-form_goods_modal .uipw-modal_form_fields input[type=submit],
+#uipw-form_goods_modal .uipw-modal_form_fields textarea[type=submit] {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    width: 150px;
+    display: block;
+    margin: 20px 0 0 -150px;
+    padding: 12px 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    background: #29af17;
+    position: relative;
+    left: 100%; }
+#uipw-form_call_modal .uipw-modal_form_fields input[type=submit]:hover, #uipw-form_call_modal .uipw-modal_form_fields textarea[type=submit]:hover,
+#uipw-form_question_modal .uipw-modal_form_fields input[type=submit]:hover,
+#uipw-form_question_modal .uipw-modal_form_fields textarea[type=submit]:hover,
+#uipw-form_goods_modal .uipw-modal_form_fields input[type=submit]:hover,
+#uipw-form_goods_modal .uipw-modal_form_fields textarea[type=submit]:hover {
+    background: #4ad337; }
+#uipw-form_call_modal .uipw-modal_form_fields input[type=file], #uipw-form_call_modal .uipw-modal_form_fields textarea[type=file],
+#uipw-form_question_modal .uipw-modal_form_fields input[type=file],
+#uipw-form_question_modal .uipw-modal_form_fields textarea[type=file],
+#uipw-form_goods_modal .uipw-modal_form_fields input[type=file],
+#uipw-form_goods_modal .uipw-modal_form_fields textarea[type=file] {
+    display: none; }
+#uipw-form_call_modal .uipw-modal_form_fields textarea,
+#uipw-form_question_modal .uipw-modal_form_fields textarea,
+#uipw-form_goods_modal .uipw-modal_form_fields textarea {
+    resize: none;
+    width: 100%;
+    height: 200px; }
+
+#uipw-form_call_modal .uipw-modal_form_fields {
+    width: 80%; }
+
+#uipw-form_question_modal .uipw-modal_form_fields > div {
+    display: inline-block;
+    width: 48%; }
+#uipw-form_question_modal .uipw-modal_form_fields > div:nth-of-type(1) {
+    margin-right: 3%; }
+#uipw-form_question_modal .uipw-modal_form_fields label[for=question_file] {
+    line-height: 1;
+    font-size: 1em;
+    margin-left: 25px;
+    color: #898989;
+    display: inline-block;
+    width: auto;
+    position: relative;
+    vertical-align: middle;
+    border-bottom: 1px dashed #898989; }
+#uipw-form_question_modal .uipw-modal_form_fields label[for=question_file]:before {
+    content: '+';
+    position: absolute;
+    font-size: 30px;
+    top: 50%;
+    left: -25px;
+    margin-top: -15px;
+    font-weight: 600;
+    color: #29af17; }
+#uipw-form_question_modal .uipw-modal_form_fields label[for=question_file]:hover {
+    border-color: transparent; }
+
+#uipw-form_goods_modal > div {
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+    padding: 0 50px; }
+#uipw-form_goods_modal > div.goods_info {
+    border-right: 1px solid #d7d7d7; }
+#uipw-form_goods_modal > div.goods_info .goods_img {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #d7d7d7;
+    overflow: hidden;
+    position: relative; }
+#uipw-form_goods_modal > div.goods_info .goods_img img {
+    width: 85%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+#uipw-form_goods_modal > div.goods_info .title {
+    margin: 20px 0;
+    font-size: 2.1em;
+    line-height: 1; }
+#uipw-form_goods_modal > div.goods_info .price {
+    font-weight: 300; }
+#uipw-form_goods_modal > div.goods_info .price span {
+    font-size: 1.6em; }
+#uipw-form_goods_modal > div.goods_info .price sup {
+    font-size: 1.1em;
+    color: #d23030;
+    text-decoration: line-through; }
+#uipw-form_goods_modal > div.goods_info table {
+    width: 100%; }
+#uipw-form_goods_modal > div.goods_info table tr:nth-of-type(odd) {
+    background: #ebebeb; }
+#uipw-form_goods_modal > div.goods_info table td {
+    padding: 15px;
+    color: #454545; }
+#uipw-form_goods_modal > div.goods_info table td:nth-of-type(even) {
+    text-align: right; }
+
+@media only screen and (max-width: 667px) {
+    #uipw-form_call_modal,
+    #uipw-form_question_modal,
+    #uipw-form_goods_modal {
+        padding: 25px 0; }
+
+    #uipw-form_question_modal .uipw-modal_form_fields > div {
+        display: inline-block;
+        width: 100%; }
+    #uipw-form_question_modal .uipw-modal_form_fields > div:nth-of-type(1) {
+        margin-right: 0; }
+
+    #uipw-form_goods_modal > div {
+        width: 100%;
+        padding: 0 20px; }
+    #uipw-form_goods_modal > div.goods_info {
+        border-right: none;
+        border-bottom: 1px solid #d7d7d7;
+        padding-bottom: 20px;
+        margin-bottom: 10px;
+        display: none !important;}
+    #uipw-form_goods_modal > div.goods_info .goods_img {
+        display: block;
+        margin: 0 auto; } }
+
+
+
+/*# sourceMappingURL=index.css.map */
